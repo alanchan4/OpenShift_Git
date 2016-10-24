@@ -18,7 +18,7 @@
 # Pull base image
 # ---------------
 # FROM 1221-domain 
-FROM alanchan4/wls-appdeploy:latest
+FROM alanchan4/wls-appdeploy:volume-v1
 
 
 # Maintainer
