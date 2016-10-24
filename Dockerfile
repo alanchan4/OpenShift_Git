@@ -18,7 +18,7 @@
 # Pull base image
 # ---------------
 # FROM 1221-domain 
-FROM alanchan4/wls-appdeploy:volume-v1
+FROM docker.io/alanchan4/wlsdomain:latest
 
 
 # Maintainer
@@ -33,3 +33,5 @@ COPY container-scripts/* /u01/oracle/
 #    wlst /u01/oracle/jms-deploy.py
 
 RUN wlst -loadProperties /u01/oracle/datasource.properties /u01/oracle/ds-deploy.py
+RUN wlst /u01/oracle/app-deploy.py
+
