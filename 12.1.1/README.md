@@ -11,7 +11,7 @@ First make sure you have built **oracle/weblogic:12.2.1-developer**. Now to buil
 
 To start the containerized Admin Server, run:
 
-        $ docker run -d --name wlsadmin --hostname wlsadmin -p 8001:8001 1221-domain
+        $ docker run -d --name wlsadmin --hostname wlsadmin -p 8001:8001 1211-domain
 
 # Copyright
 Copyright (c) 2014-2016 Oracle and/or its affiliates. All rights reserved.
